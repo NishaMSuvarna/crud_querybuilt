@@ -1,0 +1,12 @@
+php artisan make:migration create_student_table
+
+
+//Error:
+Laravel Migration Unknown database
+solution:
+step 1: clear logs from laravel.log
+step 2: php artisan optimize
+step 3: php artisan migrate
+
+//put for complete update
+//patch for partial update
